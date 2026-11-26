@@ -1,0 +1,19 @@
+{
+  "name": "blocksign/verify",
+  "description": "Server-side PHP SDK for BlockSign Verify",
+  "type": "library",
+  "license": "proprietary",
+  "homepage": "https://verify.blocksign.io/",
+  "require": {
+    "php": "^8.2",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "BlockSign\\Verify\\": "php/src/"
+    }
+  },
+  "scripts": {
+    "test": "php php/tests/sdk.php"
+  }
+}

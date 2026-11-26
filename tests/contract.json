@@ -1,0 +1,45 @@
+{
+  "verification": {
+    "uid": "signup+ä &/?#1",
+    "sessionId": 42,
+    "status": "completed",
+    "schemaVersion": 2,
+    "isHuman": true,
+    "livenessScore": 0.95,
+    "answers": {
+      "city": "Köln"
+    },
+    "idDocumentData": null,
+    "createdAt": "2026-02-19T12:00:00Z",
+    "completedAt": "2026-02-19T12:05:00Z",
+    "verdict": {
+      "reported": {
+        "source": "device",
+        "isHuman": true,
+        "livenessScore": 0.95
+      },
+      "server": {
+        "source": "rppg-stream",
+        "corroborated": true,
+        "livenessScore": 0.41,
+        "floor": 0.15
+      }
+    }
+  },
+  "webhook": {
+    "rawBody": "{\n  \"uid\": null,\n  \"sessionId\": 42,\n  \"status\": \"completed\",\n  \"schemaVersion\": 2,\n  \"isHuman\": true,\n  \"livenessScore\": 0.95,\n  \"answers\": {\n    \"city\": \"Köln\"\n  },\n  \"idDocumentData\": null,\n  \"createdAt\": \"2026-02-19T12:00:00Z\",\n  \"completedAt\": \"2026-02-19T12:05:00Z\",\n  \"verdict\": {\n    \"reported\": {\n      \"source\": \"device\",\n      \"isHuman\": true,\n      \"livenessScore\": 0.95\n    },\n    \"server\": {\n      \"source\": \"rppg-stream\",\n      \"corroborated\": true,\n      \"livenessScore\": 0.41,\n      \"floor\": 0.15\n    }\n  },\n  \"event\": \"verification.completed\",\n  \"token\": \"example-webhook-token\",\n  \"meeting\": {\n    \"channel\": \"teams\",\n    \"meetingId\": \"demo-meeting\"\n  },\n  \"proof\": \"example-proof\"\n}\n",
+    "secret": "example-webhook-secret",
+    "signature": "2671241902fff0cb4a8635dd65f55ac46a39966b31067e3394bf8df80e91923a"
+  },
+  "validProof": {
+    "valid": true,
+    "sessionId": 42,
+    "orgId": 10,
+    "human": true,
+    "meeting": {
+      "channel": "teams",
+      "meetingId": "demo-meeting"
+    },
+    "expiresAt": "2026-02-19T12:20:00Z"
+  }
+}
